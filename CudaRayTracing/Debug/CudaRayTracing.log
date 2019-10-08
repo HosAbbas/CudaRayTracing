@@ -1,0 +1,18 @@
+﻿Build started 08/04/2018 17:51:08.
+     1>Project "C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\CudaRayTracing\CudaRayTracing.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\Debug\CudaRayTracing.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" openGL32.lib glew32s.lib glfw3.lib soil.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\Debug\CudaRayTracing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\Debug\CudaRayTracing.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         CudaRayTracing.vcxproj -> C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\Debug\CudaRayTracing.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 fichier(s) copié(s).
+     1>Done Building Project "C:\Users\Hossein\documents\visual studio 2013\Projects\CudaRayTracing\CudaRayTracing\CudaRayTracing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.53
